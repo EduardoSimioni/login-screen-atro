@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+#div-main{
+    background: url(./img/background.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#skip-button{
+    display: block;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    padding: 50px 20px;
+}
+
+#img-logo{
+    display: block;
+    height: 15vh;
+    width: 65vw;
+    margin: 50px auto;
+}
+
+input{
+    display: block;
+    margin: 0 auto;
+    background: rgba(20, 15, 38, 0.648579);
+    backdrop-filter: blur(44.119px); 
+    width: 320px;
+    height: 55px;
+    margin-bottom: 20px;   
+    border: none;
+    border-radius: 10px;
+}
+
+#input-email{
+    margin-top: 100px;
+    margin-bottom: 19px;
+}
+
+input::placeholder{
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.398041);
+    font-size: 15px;
+}
+
+button{
+    display: block;
+    width: 330px;
+    height: 55px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#button-signin{
+    background: linear-gradient(314.33deg, #645AFF -3.69%, #A573FF 109.82%); 
+    border: none;
+    border-radius: 30px;
+    
+}
+
+#or-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 20px auto;
+}
+
+#button-continue{
+    background: #014250;
+    background-blend-mode: overlay;
+    backdrop-filter: blur(43.444px);
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 2.5px;
+    font-size: 14px;
+}
+
+#div-links{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.links{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin: 40px 20px;
+}
